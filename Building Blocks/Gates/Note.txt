@@ -1,0 +1,4 @@
+What have I learned?
+I learned how to build basic gates through verilog, test benches and simulation. 
+Though I have't figured out how to get the waveforms next part I definitely will!
+Hopefully I can apply these skills further in order to accomplish my goal of designing the MPU!
