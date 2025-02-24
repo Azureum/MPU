@@ -1,0 +1,4 @@
+What did I learn?
+I found a new error! Multiple driver conflict, in hindsight it was a pretty obvious bug but apparently I didnt catch it.
+Other than that I learned a lot about decoders, how MUX's and Decoders are opposite as well as the use cases for Decoders especially for routing
+where data goes or memory locations. I hope to combine all of these things together in the future.
