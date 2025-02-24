@@ -40,6 +40,6 @@ module testbench;
         s3 = 3'b101; #10;
         s3 = 3'b110; #10;
         s3 = 3'b111; #10;
-        $finish
+        $finish;
     end
 endmodule

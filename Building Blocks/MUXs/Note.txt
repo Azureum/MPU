@@ -1,0 +1,5 @@
+What did I learn?
+Well I learned more about creating testbenches which was really cool. Clearing the monitor and remaking it, and then using display was neat.
+Another thing I learned was Mux's I really didn't understand how they worked but when working to implement them in verilog I understood it better.
+Something else I learned was doing bit width specification, so saying the [2:0] means its 3 bits big as well as familarity with using ternary operators as if else statements;
+It was fun and great, ONTO THE NEXT STEP!
