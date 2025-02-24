@@ -6,7 +6,7 @@ module mux_two( // was advised to do it like this an I definitely agree, it look
     input wire s, 
     output wire [7:0] out
     );
-    assign c = s ? b : a;
+    assign out = s ? b : a;
 endmodule
 
 // 4:1 multiplexer
@@ -16,9 +16,9 @@ module mux_four(
     output wire [7:0] out
 );
     assign out = (s == 2'b00) ? a :
-                     (s == 2'b01) ? b :
-                     (s == 2'b10) ? c :
-                     d;
+                 (s == 2'b01) ? b :
+                 (s == 2'b10) ? c :
+                 d;
 endmodule
 
 // 8:1 Multiplexer
@@ -27,14 +27,14 @@ module mux_eight(
     input wire [2:0] s, 
     output wire [7:0] out
 );
-    assign i = (s == 3'b000) ? a : 
-                    (s == 3'b001) ? b :
-                    (s == 3'b010) ? c :
-                    (s == 3'b011) ? d :
-                    (s == 3'b100) ? e :
-                    (s == 3'b101) ? f :
-                    (s == 3'b110) ? g:
-                    h;
+    assign out = (s == 3'b000) ? a : 
+                 (s == 3'b001) ? b :
+                 (s == 3'b010) ? c :
+                 (s == 3'b011) ? d :
+                 (s == 3'b100) ? e :
+                 (s == 3'b101) ? f :
+                 (s == 3'b110) ? g:
+                 h;
 endmodule
 
 
