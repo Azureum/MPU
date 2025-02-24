@@ -1,6 +1,6 @@
 # MPU
 ## The Matthew Processing unit!
-The Matthew Processing Unit! This repository will show my progress of writing my own cpu through verilog and testing it on my FPGA! I have no clue on how this works but through this project I hope to learn how to design and test verilog code and understanding about cpu architecture.
+The Matthew Processing Unit! This repository will show my progress of writing my own cpu through verilog and testing it on my FPGA! I have no clue on how this works but through this project I hope to learn how to design and test verilog code and increase my understanding of  cpu architecture.
 
 ## Tools 
 
@@ -13,7 +13,7 @@ I also have a Seven Segement Display PMOD from Digilent, where you can find here
 #### (Made this checklist with the help of GPT4)
 ### ✅ Basic Foundations  
 - [X] Build basic logic gates (AND, OR, XOR, NOT, NAND, NOR)  
-- [ ] Design and understand a **MUX (Multiplexer)**  
+- [X] Design and understand a **MUX (Multiplexer)**  
 - [ ] Implement a **Decoder**  
 - [ ] Design and test a **Register File**  
 
